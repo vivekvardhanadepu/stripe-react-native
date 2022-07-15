@@ -6,6 +6,9 @@
 
 ### New features
 
+- Added `defaultValues` prop to `CardField`. You can now programmatically set the card number, CVC, expiry date, and postal code. [#1044](https://github.com/stripe/stripe-react-native/pull/1044)
+- Expanded `CardForm`'s `defaultValues` prop. You can now programmatically set the card number, CVC, expiry date, and postal code. [#1044](https://github.com/stripe/stripe-react-native/pull/1044)
+
 ### Fixes
 
 - Reduced the size of the `@stripe/stripe-react-native` by preventing unnecessary files from being published. [#1043](https://github.com/stripe/stripe-react-native/pull/1043)
